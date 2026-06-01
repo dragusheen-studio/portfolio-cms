@@ -1,0 +1,58 @@
+{
+	"repo_target": "dragusheen/Advent_of_code",
+	"title": "Advent of Code",
+	"subtitle": "Objectif : Complétion totale.",
+	"description": "Mon dépôt centralisé regroupant toutes mes solutions. Je participe activement chaque mois de décembre, tout en résolvant progressivement les années antérieures en parallèle pour atteindre les 100%.",
+	"image": "./images/logo.jpg",
+	"tags": [
+		{
+			"name": "Python",
+			"important": true
+		},
+		{
+			"name": "AdventOfCode",
+			"important": true
+		},
+		{
+			"name": "Algorithm",
+			"important": true
+		},
+		{
+			"name": "Logic",
+			"important": false
+		},
+		{
+			"name": "Challenge",
+			"important": false
+		},
+		{
+			"name": "Parsing",
+			"important": false
+		}
+	],
+	"links": [
+		{
+			"name": "Site Officiel",
+			"url": "https://adventofcode.com"
+		}
+	],
+	"featured": false,
+	"details": {
+		"role": "Participant",
+		"status": "Saisonnier",
+		"problem": "L'Advent of Code est une mine d'or d'apprentissage depuis 2015. Mon défi est de rattraper tout l'historique des puzzles pour parfaire ma maîtrise de Python, au-delà du simple challenge annuel.",
+		"solution": "Une structure de projet rigoureuse (par Année/Jour) qui me permet de switcher entre l'édition en cours et les anciennes versions. Chaque exercice est prétexte à explorer des concepts avancés (Pathfinding, Arithmétique modulaire, Parsing, etc).",
+		"features": [
+			"Architecture multi-années",
+			"Résolution de problèmes complexes",
+			"Optimisation algorithmique",
+			"Parsing de données brutes"
+		],
+		"gallery": [
+			"./images/2025.png",
+			"./images/2024.png",
+			"./images/2015.png"
+		],
+		"version": "3.10.0"
+	}
+}

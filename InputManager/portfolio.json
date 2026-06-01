@@ -1,0 +1,45 @@
+{
+	"repo_target": "dragusheen/input_manager-library",
+	"title": "Input Manager Lib",
+	"subtitle": "Gestion d'entrées Terminal avancée.",
+	"description": "Une bibliothèque C++ permettant de capturer et gérer les entrées utilisateur dans un terminal avec le confort d'un shell moderne (historique, navigation curseur, auto-complétion, etc).",
+	"image": "./images/Logo.png",
+	"tags": [
+		{
+			"name": "C++",
+			"important": true
+		},
+		{
+			"name": "CLI",
+			"important": true
+		},
+		{
+			"name": "Lib",
+			"important": true
+		},
+		{
+			"name": "Termios",
+			"important": true
+		},
+		{
+			"name": "Unix",
+			"important": false
+		}
+	],
+	"links": [],
+	"featured": false,
+	"details": {
+		"role": "Library Author",
+		"status": "Terminé",
+		"problem": "L'entrée standard C++ (`std::cin`) est bloquante et limitée : impossible d'utiliser les flèches pour déplacer le curseur, pas d'historique de commandes, ni d'auto-complétion.",
+		"solution": "Encapsulation de la structure `termios` pour passer le terminal en mode 'raw'. Implémentation manuelle de la gestion du buffer d'entrée, des séquences d'échappement (flèches) et des raccourcis style Emacs (Ctrl+A, Ctrl+E).",
+		"features": [
+			"Historique de commandes (Haut/Bas)",
+			"Auto-complétion (Tabulation)",
+			"Édition de ligne et curseur",
+			"Raccourcis (Ctrl+A, Ctrl+E, Ctrl+K...)"
+		],
+		"gallery": [],
+		"version": "1.0.0"
+	}
+}

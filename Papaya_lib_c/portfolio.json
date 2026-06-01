@@ -1,0 +1,58 @@
+{
+	"repo_target": "dragusheen/papaya-library-c",
+	"title": "Papaya Lib (C)",
+	"subtitle": "Gestion de données structurées en C.",
+	"description": "Une bibliothèque légère écrite en C pur pour faciliter la manipulation et la persistance de données dynamiques. Elle permet de définir des schémas (clés), d'ajouter des entrées et de sauvegarder l'état sur le disque via une API simple.",
+	"image": "./images/Logo.png",
+	"tags": [
+		{
+			"name": "C",
+			"important": true
+		},
+		{
+			"name": "Database",
+			"important": true
+		},
+		{
+			"name": "Lib",
+			"important": true
+		},
+		{
+			"name": "Filesystem",
+			"important": false
+		},
+		{
+			"name": "DataManagement",
+			"important": false
+		},
+		{
+			"name": "Persistence",
+			"important": false
+		},
+		{
+			"name": "CRUD",
+			"important": false
+		}
+	],
+	"links": [
+		{
+			"name": "Version C++",
+			"url": "./Papaya Lib (C++)"
+		}
+	],
+	"featured": false,
+	"details": {
+		"role": "Library Author",
+		"status": "Stable",
+		"problem": "En C, gérer des données dynamiques (listes, paires clé-valeur) et leur sauvegarde fichier implique souvent une gestion complexe de la mémoire (`malloc`/`free`) et l'écriture de parseurs manuels sujets aux erreurs.",
+		"solution": "Une abstraction 'orientée objet' via des structures opaques (`papaya_t`). La bibliothèque encapsule la complexité des listes doublement chaînées et de la sérialisation, offrant une interface propre (`create`, `add`, `save`, `destroy`).",
+		"features": [
+			"Persistance fichier simple",
+			"Gestion mémoire encapsulée",
+			"Structure de données dynamique",
+			"API style Objet en C"
+		],
+		"gallery": [],
+		"version": "1.0.0"
+	}
+}

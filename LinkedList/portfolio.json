@@ -1,0 +1,41 @@
+{
+	"repo_target": "dragusheen/linked_list-library",
+	"title": "Linked List Lib",
+	"subtitle": "Implémentation générique en C.",
+	"description": "Une bibliothèque C robuste proposant une implémentation de listes simplement chaînées génériques (`void *`). Elle fournit une API standardisée utilisant le préfixe `dl_` (Dragusheen Linked-list) pour faciliter la manipulation de données dynamiques.",
+	"image": "./images/Logo.png",
+	"tags": [
+		{
+			"name": "C",
+			"important": true
+		},
+		{
+			"name": "Lib",
+			"important": true
+		},
+		{
+			"name": "DataStructure",
+			"important": true
+		},
+		{
+			"name": "Generic",
+			"important": false
+		}
+	],
+	"links": [],
+	"featured": false,
+	"details": {
+		"role": "Developer",
+		"status": "Terminé",
+		"problem": "En C standard, l'absence de conteneurs dynamiques force souvent la réécriture de structures de base pour chaque projet, ce qui est fastidieux et source d'erreurs (memory leaks).",
+		"solution": "Développement d'une structure générique (`void *`) agnostique du type de données. L'API expose des fonctions de haut niveau (Insert trié, Apply, Random) tout en encapsulant la complexité des pointeurs.",
+		"features": [
+			"Support générique (void*)",
+			"Programmation fonctionnelle (Apply)",
+			"Insertion triée (Custom Compare)",
+			"Sélection aléatoire d'éléments"
+		],
+		"gallery": [],
+		"version": "1.0.0"
+	}
+}
